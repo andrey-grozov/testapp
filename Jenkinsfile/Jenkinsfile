@@ -38,6 +38,7 @@ pipeline {
                 docker push mrgrav/testapp:$GIT_TAG_NAME
                 '''
             }
+        }
         stage("k8s deploy") {
             steps {
                 echo "============== start deploy =================="
