@@ -6,7 +6,7 @@ spec:
   vars:
     external:
       - name: image_tag
-        default: ':latest'
+        default: 'latest'
   environments:
     stage:
       defaultNamespace: stage
