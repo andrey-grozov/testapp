@@ -3,6 +3,10 @@ kind: App
 metadata:
   name: myapp
 spec:
+  vars:
+    external:
+      - name: image_tag
+        default: ':latest'
   environments:
     stage:
       defaultNamespace: stage
@@ -10,5 +14,4 @@ spec:
     prod:
       defaultNamespace: default
       server: https://130.193.51.34:6443
-
-  vars: {}
+#vars: {}
