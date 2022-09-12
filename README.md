@@ -1,4 +1,4 @@
 # Test application
-test jenkins push4
+test jenkins deploy4
 
 
